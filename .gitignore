@@ -1,0 +1,16 @@
+#common filters
+.DS_Store
+thumbs.db
+.svn
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+
+
+#build trash
+
+build/vc9/*.ncb
+build/vc9/*.suo
+build/vc9/*.user
+build/vc9/Debug/*
+build/vc9/Release/*
