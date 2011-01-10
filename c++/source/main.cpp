@@ -20,7 +20,7 @@ void ParseFile( const std::string& file, const std::string& license_header )
 	while ( file_loader.good() ) 
 	{
 		std::getline( file_loader, line );	
-		result += line + "\n";
+		result += line + "\r\n";
 	}
 	file_loader.close();
 
@@ -39,11 +39,11 @@ std::string ReadFile( const std::string& file )
 	while ( file_loader.good() ) 
 	{
 		std::getline( file_loader, line );	
-		result += line + "\n";
+		result += line + "\r\n";
 	}
 	file_loader.close();
 
-	result += "\n";
+	result += "\r\n";
 
 	return result;
 }

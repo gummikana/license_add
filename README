@@ -4,3 +4,7 @@ LICENSE ADD TOOL
 Couldn't find a simple script that would do this, so I wrote my own. Adds the contents of license.txt to the begining of every file in the folder where the .exe is executed.
 
 LICENSE: AS-IS
+
+-----
+
+Fuck it. I fought with the line endings for an hour or two in C++ so I decided to give python a try and wrote the script in 5 minutes
