@@ -1,0 +1,6 @@
+LICENSE ADD TOOL
+================
+
+Couldn't find a simple script that would do this, so I wrote my own. Adds the contents of license.txt to the begining of every file in the folder where the .exe is executed.
+
+LICENSE: AS-IS
